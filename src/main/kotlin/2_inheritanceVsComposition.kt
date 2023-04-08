@@ -19,9 +19,8 @@ fun main(){
     println(person4.newPresentation())
     println(person5.newPresentation())
     println(person6.newPresentation())
-
-
 }
+
 //interface
 interface Person{
     val name: String
@@ -40,7 +39,6 @@ class Student(override val name: String, override val surname: String): Person{
         return "Hi I'm $name $surname and I'm a student"
     }
 }
-
 
 //inheritance
 
