@@ -4,9 +4,9 @@ Email, Facebook, Google. They need to each have an id, and optionally
 password or email. Use them in a when inside a method to return a printable value as String.*/
 
 fun main(){
-    var emailUser = Email(null, "qwerty", "megghy-91@hotmail.it")
-    var facebookUser = Facebook("giogio00", null, "giogio-00@outlook.it")
-    var googleUser = Google(null, "supercalifragilistichespiralidoso","alberto.boh@gmail.com")
+    val emailUser = Email(null, "qwerty", "megghy-91@hotmail.it")
+    val facebookUser = Facebook("giogio00", null, "giogio-00@outlook.it")
+    val googleUser = Google(null, "supercalifragilistichespiralidoso","alberto.boh@gmail.com")
     printInfo(emailUser)
     printInfo(facebookUser)
     printInfo(googleUser)
@@ -29,4 +29,8 @@ data class Facebook(override var idUser: String?, override var password: String?
 
 data class Google(override var idUser: String?, override var password: String?, override var email: String?): UserType(idUser,password,email){
 }
+
+
+
+
 
