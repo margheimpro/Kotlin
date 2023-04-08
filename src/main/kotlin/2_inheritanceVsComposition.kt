@@ -15,6 +15,7 @@ fun main(){
     val person4 : Person2 = Role("Sarah","Gilbert","Parent")
     val person5 : Person2 = Role("Jeremy","Gilbert","Student")
     val person6 : Person2 = Role("Astrid","Gilbert","Student")
+    
     println(person4.newPresentation())
     println(person5.newPresentation())
     println(person6.newPresentation())
